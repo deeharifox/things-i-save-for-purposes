@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dee's super wonderous practice in java script'</title>
+    <script>
+        //Here goes JavaScrip code
+
+        console.log("hello world, but from Java");
+        //mult variable
+        var a = 4;
+        var b = 10;
+        var result = a * b;
+        console.log("The result is: " + result);
+        //same but new variables, une for plus, minus and div
+        //plus variable
+        var cplus = 11;
+        var dplus = 12;
+        var result = cplus + dplus;
+        console.log("The result is: " + result);
+        //minus variable
+        var emin = 69;
+        var fmin = 85;
+        var result = emin - fmin;
+        console.log("The result is: " + result);
+        //divition variable
+        var gdiv = 500;
+        var hdiv = 10;
+        var result = gdiv / hdiv;
+        console.log("The result is: " + result);
+
+        //function declaration for area of a triangle
+        function CalcTriangleArea(base, height) {
+            var area = (base * height) / 2;
+            return area;
+        }
+        //summon the function to calculate the areas with set parameters
+        var AreaTriangSmall = CalcTriangleArea(1.8, 0.98);
+        console.log("The area of the small triangle is: " + AreaTriangSmall);
+
+        var AreaTriangMid = CalcTriangleArea(5.78, 3.08);
+        console.log("The area of the medium triangle is: " + AreaTriangMid);
+
+        var AreaTriangBig = CalcTriangleArea(69.69, 420.69);
+        console.log("The area of the big triangle is: " + AreaTriangBig);
+
+        //function for area in main page, button related
+        function exeCalcArea() {
+            var base = inputBase.value;
+            var height = inputHeight.value;
+            var result = CalcTriangleArea(base, height);
+
+            alert(result);
+        }
+
+    </script>
+</head>
+<body>
+    <h1>first practices</h1>
+    <p>
+        We will be seeing JS functions during this practice with web browsers
+    </p>
+    <h2>Area of the triangle</h2>
+    <p>
+        Insert values for triangle dimentions
+        and press the button to calculate their area.
+    </p>
+
+    Base: <input type="number" id="inputBase"/>
+    Height: <input type="number" id="inputHeight"/>
+    <button onclick="exeCalcArea()">Calculate Area</button>
+
+</body>
+</html>
