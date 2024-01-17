@@ -34,6 +34,7 @@
             var area = (base * height) / 2;
             return area;
         }
+
         //summon the function to calculate the areas with set parameters
         var AreaTriangSmall = CalcTriangleArea(1.8, 0.98);
         console.log("The area of the small triangle is: " + AreaTriangSmall);
@@ -53,6 +54,35 @@
             alert(result);
         }
 
+
+        //function declaration for IMC
+        function CalcIMC(weight, estat) {
+            var IMC = weight / (estat * 2);
+            return IMC;
+        }
+
+        //function for IMC
+        function exeCalcIMC() {
+            var weight = inputWeight.value;
+            var estat = inputEstat.value;
+            var resultIMC = weight / (estat * estat);
+
+                alert(resultIMC);
+        }
+
+        //function for C to F
+        function exeCalcTempC() {
+            var degC = inputC.value;
+            var resultDegC = degC * (9 / 5) + 32;
+            alert(resultDegC);
+        }
+
+        //function for F to C
+        function exeCalcTempF() {
+            var degF = inputF.value;
+            var resultDegF = (degF - 32) * (5 / 9);
+            alert(resultDegF);
+        }
     </script>
 </head>
 <body>
@@ -66,9 +96,30 @@
         and press the button to calculate their area.
     </p>
 
-    Base: <input type="number" id="inputBase"/>
-    Height: <input type="number" id="inputHeight"/>
+    Base: <input type="number" id="inputBase" />
+    Height: <input type="number" id="inputHeight" />
     <button onclick="exeCalcArea()">Calculate Area</button>
+
+    <h3>IMC</h3>
+    <p>
+        Insert values for weight and height(m),
+        then press the button to calculate IMC
+    </p>
+
+    Weight: <input type="number" id="inputWeight" />
+    Estat: <input type="number" id="inputEstat" />
+    <button onclick="exeCalcIMC()">Calculate IMC</button>
+
+    <h4>IMC</h4>
+    <p>
+        Insert values for degress in C or F
+        to conver to the other one.
+    </p>
+
+    C: <input type="number" id="inputC" />
+    <button onclick="exeCalcTempC()">Convert temperature</button>
+    F: <input type="number" id="inputF" />
+    <button onclick="exeCalcTempF()">Convert temperature</button>
 
 </body>
 </html>
