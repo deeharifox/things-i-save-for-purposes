@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bank Account (structure)</title>
+    <script>
+        var myAcc = {
+            name: "Maria Mendez",
+            balance: 15478.56,
+            bank: "Big Bucks",
+        }
+
+        function consultAcc(){
+            panelRes.innerHTML =
+                myAcc.name, ", "
+                    + "you have $" + myAcc.balance
+                    + "with bank " + myAcc.bank;
+        }
+
+        function withAcc() {
+            var ammount = ValAmmount.value;
+            if (ammount > myAcc.balance) {
+                panelRes.innerHTML =
+                    "Broke lmao"
+            }
+            else {// big bucks
+                myAcc.balance -= ammount;
+                panelRes.innerHTML =
+                    "Withdrew $" + ammount
+                    + ", remaining $" + myAcc.balance;
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    <h1>Bank account</h1>
+    Ammount: <input type="number" , id="ValAmmount" /> <br />
+    <button> Deposit </button><br />
+    <button onclick="withAcc"> Withdraw </button><br />
+    <button onclick="consultAcc"> Consult </button><br />
+    <div id="panelRes"></div>
+
+</body>
+</html>

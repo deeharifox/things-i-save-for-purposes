@@ -1,0 +1,63 @@
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\banco Estruct.dll.config
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\banco Estruct.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\banco Estruct.pdb
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\banco Estruct.xml
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\csc.exe
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\csc.exe.config
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\csc.rsp
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\csi.exe
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\csi.exe.config
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\csi.rsp
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.AppContext.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Console.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.IO.Compression.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Net.Http.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Net.Sockets.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.ValueTuple.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\vbc.exe
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\vbc.exe.config
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\vbc.rsp
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\VBCSCompiler.exe
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco Estruct.vbproj.AssemblyReference.cache
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco_Estruct.Resources.resources
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco Estruct.vbproj.GenerateResource.cache
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco Estruct.vbproj.CoreCompileInputs.cache
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco Estruct.vbproj.CopyComplete
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco Estruct.dll
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco Estruct.xml
+C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\banco Estruct\banco Estruct\obj\Debug\banco Estruct.pdb
