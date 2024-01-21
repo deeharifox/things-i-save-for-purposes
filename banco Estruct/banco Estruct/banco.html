@@ -8,20 +8,34 @@
             name: "Maria Mendez",
             balance: 15478.56,
             bank: "Big Bucks",
+            password: 1234,
         }
+        //check if password is correct
+        function passAcc() {
+            var nipRes = nipInp.value;
+            if (nipRes == myAcc.password) {
+            panelRes.innerHTML = "welcome";
+                var passRes = 1;
+        }
+        else {
+                panelRes.innerHTML = "nope";
+                var passRes = 0;
+        }
+        }    
 
-        function consultAcc(){
-            panelRes.innerHTML =
-                myAcc.name, ", "
+        function consultAcc() {
+                panelRes.innerHTML =
+                    myAcc.name + ", "
                     + "you have $" + myAcc.balance
                     + "with bank " + myAcc.bank;
+           
         }
 
         function withAcc() {
             var ammount = ValAmmount.value;
             if (ammount > myAcc.balance) {
                 panelRes.innerHTML =
-                    "Broke lmao"
+                    "Broke lmao";
             }
             else {// big bucks
                 myAcc.balance -= ammount;
@@ -31,15 +45,26 @@
             }
         }
 
+        function depAcc() {
+            var ammount = ValAmmount.value;
+            myAcc.balance += ammount;
+            panelRes.innerHTML =
+                "You deposited $" + ammount
+                + ", new balance is $" + myAcc.balance;
+        }
 
     </script>
 </head>
 <body>
     <h1>Bank account</h1>
-    Ammount: <input type="number" , id="ValAmmount" /> <br />
-    <button> Deposit </button><br />
-    <button onclick="withAcc"> Withdraw </button><br />
-    <button onclick="consultAcc"> Consult </button><br />
+    <input type="number" id="nipInp" /><br />
+    <button onclick="passAcc()"> NIP </button><br />
+
+    
+    Ammount: <input type="number" id="ValAmmount" /> <br />
+    <button onclick="depAcc()"> Deposit </button><br />
+    <button onclick="withAcc()"> Withdraw </button><br />
+    <button onclick="consultAcc()"> Consult </button><br />
     <div id="panelRes"></div>
 
 </body>
