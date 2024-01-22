@@ -10,6 +10,29 @@
             console.log(persona.nombre + " " + persona.apellido);
             console.log("tiene " + persona.edad + " años mide " + persona.altura);
         }
+
+        function describirMovie(movie) {
+            console.log("Movie Name: " + movie.Name);
+            console.log("year: " + movie.Year);
+            console.log("genre: " + movie.Genre);
+            console.log("length: " + movie.Length);
+            console.log("director: " + movie.Director);
+        }
+
+        function describirPhone(phone) {
+            console.log("Model: " + phone.Model);
+            console.log("year: " + phone.Year);
+            console.log("Country: " + phone.Country);
+            console.log("Price: " + phone.Price);
+        }
+
+        function describirGame(game) {
+            console.log("Game: " + game.Game);
+            console.log("Release: " + game.Release);
+            console.log("Genre: " + game.Genre);
+            console.log("Platform: " + game.Platform);
+        }
+
         //declare var with structure
         var pepito = {
             nombre: "Jose Juan",
@@ -35,8 +58,53 @@
             Director: "Wes Anderson",
         }
 
-        describirPers(pepito);
-        describirPers(claudia);
+        var Kubo = {
+            Name: "Kubo and the two strings",
+            Year: "200X",
+            Genre: "Family/Fantasy",
+            Length: "XX",
+            Director: "XX",
+        }
+
+        //phones
+        var Redmi = {
+            Model: "Redmi9",
+            Year: "2022",
+            Country: "Chinese",
+            Price: "Cheap",
+        }
+
+        var iPhone = {
+            Model: "iPhone 14",
+            Year: "2022",
+            Country: "USA",
+            Price: "Expensive"
+        }
+
+        //games
+        var DF = {
+            Game: "WoW Dragonflight",
+            Release: "2023",
+            Genre: "MMO",
+            Platform: "PC",
+        }
+
+        var Mario = {
+            Game: "Mario Bros. Wonder",
+            Release: "2023",
+            Genre: "Platformer",
+            Platform: "Nintendo Switch",
+        }
+
+            describirPers(pepito);
+            describirPers(claudia);
+            describirMovie(FantFox);
+            describirMovie(Kubo);
+            describirPhone(Redmi);
+            describirPhone(iPhone);
+            describirGame(DF);
+            describirGame(Mario);
+
 
     </script>
 </head>

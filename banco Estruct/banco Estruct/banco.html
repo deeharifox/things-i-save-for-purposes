@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Bank Account (structure)</title>
     <script>
+        var passRes = 0;
         var myAcc = {
             name: "Maria Mendez",
             balance: 15478.56,
@@ -21,37 +22,39 @@
                 panelRes.innerHTML = "nope";
                 var passRes = 0;
         }
-        }    
+        }
 
-        function consultAcc() {
+            //check money
+            function consultAcc() {
                 panelRes.innerHTML =
                     myAcc.name + ", "
                     + "you have $" + myAcc.balance
                     + "with bank " + myAcc.bank;
-           
-        }
-
-        function withAcc() {
-            var ammount = ValAmmount.value;
-            if (ammount > myAcc.balance) {
-                panelRes.innerHTML =
-                    "Broke lmao";
             }
-            else {// big bucks
-                myAcc.balance -= ammount;
-                panelRes.innerHTML =
-                    "Withdrew $" + ammount
-                    + ", remaining $" + myAcc.balance;
-            }
-        }
 
-        function depAcc() {
-            var ammount = ValAmmount.value;
-            myAcc.balance += ammount;
-            panelRes.innerHTML =
-                "You deposited $" + ammount
-                + ", new balance is $" + myAcc.balance;
-        }
+            //take money out
+            function withAcc() {
+                var ammount = ValAmmount.value;
+                if (ammount > myAcc.balance) {
+                    panelRes.innerHTML =
+                        "Broke lmao";
+                }
+                else {// big bucks
+                    myAcc.balance -= ammount;
+                    panelRes.innerHTML =
+                        "Withdrew $" + ammount
+                        + ", remaining $" + myAcc.balance;
+                }
+            }
+
+            //drop money in
+            function depAcc() {
+                var ammount = ValAmmount.value;
+                myAcc.balance += ammount;
+                panelRes.innerHTML =
+                    "You deposited $" + ammount
+                    + ", new balance is $" + myAcc.balance;
+            }
 
     </script>
 </head>
