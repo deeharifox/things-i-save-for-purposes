@@ -92,6 +92,16 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\tokens\3DDKP17.png" />
+    <Content Include="img\tokens\4EzaTxj.png" />
+    <Content Include="img\tokens\8aGTvk9.png" />
+    <Content Include="img\tokens\A0VBHlW.png" />
+    <Content Include="img\tokens\CCu0M5w.png" />
+    <Content Include="img\tokens\dnd fight.html" />
+    <Content Include="img\tokens\FGRTHYD.png" />
+    <Content Include="img\tokens\fondo.jpg" />
+    <Content Include="img\tokens\GMGFDFS.png" />
+    <Content Include="img\tokens\HTRWW.png" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -125,6 +135,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\tokens\SDFDFGD.webp" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

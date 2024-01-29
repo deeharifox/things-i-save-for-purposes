@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DnD fight</title>
+    <script>
+        function knightAttk() {
+                console.log("Hyperion swings");
+                spider.hp -= 10;
+                spider.hp += spider.def;
+            console.log(spider.name + " has " + spider.hp + " HP");
+            if (spider.hp <= 0) {
+                alert("The spider is dead");
+            }
+        }
+        function sorcAttk() {
+            console.log("Deehari casts Ray of Frost");
+            spider.hp -= 20;
+            spider.hp += spider.def;
+            console.log(spider.name + " has " + spider.hp + " HP");
+            if (spider.hp <= 0) {
+                alert("The spider is dead");
+            }
+        }
+        var spider = {
+            name: "Giant Spider",
+            hp: 100,
+            atk: 20,
+            def: 5
+        }
+
+
+    </script>
+</head>
+<meta charset="utf-8" />
+<title>DnD fight</title>
+<style>
+    .character {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    #dungeon {
+        position: relative;
+        width: 1600px;
+        height: 1200px;
+        background-image: url("img/tokens/fondo.jpg");
+    }
+    #knight {
+        left: 450px;
+        top: 500px;
+        transform: rotate(210deg);
+    }
+
+    #sorc{
+        left: 850px;
+        top: 500px;
+        transform: rotate(145deg);
+    }
+
+    #spider{
+        left: 700px;
+        top: 200px;
+    }
+</style>
+<body>
+    <div id="dungeon">
+        <img id="knight" class="character" src="img/tokens/4EzaTxJ.png" onclick="knightAttk()" />
+        <img id="sorc" class="character" src="img/tokens/CCu0M5w.png" onclick="sorcAttk()"/>
+        <img id="spider" class="character" src="img/tokens/FGRTHYD.png" />
+    </div>
+</body>
+</html>
