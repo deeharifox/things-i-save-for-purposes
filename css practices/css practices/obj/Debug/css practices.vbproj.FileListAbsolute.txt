@@ -61,3 +61,66 @@ C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\css practices\c
 C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.dll
 C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.xml
 C:\Users\gv202326710\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.pdb
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\css practices.dll.config
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\css practices.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\css practices.pdb
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\css practices.xml
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\csc.exe
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\csc.exe.config
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\csc.rsp
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\csi.exe
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\csi.exe.config
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\csi.rsp
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.AppContext.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Console.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.IO.Compression.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Net.Http.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.ValueTuple.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\vbc.exe
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\vbc.exe.config
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\vbc.rsp
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\VBCSCompiler.exe
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.vbproj.AssemblyReference.cache
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css_practices.Resources.resources
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.vbproj.GenerateResource.cache
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.vbproj.CoreCompileInputs.cache
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.vbproj.CopyComplete
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.dll
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.xml
+C:\Users\shu45\Documents\GitHub\things-i-save-for-purposes\css practices\css practices\obj\Debug\css practices.pdb

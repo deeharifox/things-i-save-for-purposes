@@ -9,8 +9,15 @@
                 spider.hp -= 10;
                 spider.hp += spider.def;
             console.log(spider.name + " has " + spider.hp + " HP");
+            expStore.kniHit += 1;
+            expStore.kniLvl = (spider.rewExp * expStore.kniHit);
+            knight.hp -= (spider.atk - knight.def);
+            console.log(spider.name + " hits Hyperion for " + spider.atk + ". Hyperion's hp: " + knight.hp);
             if (spider.hp <= 0) {
-                alert("The spider is dead");
+                alert("The spider is dead, " + "Hyperion won " + expStore.kniLvl + " exp." + " Deehari won " + expStore.sorcLvl + " exp");
+            }
+            if (knight.hp <= 0) {
+                alert("Hyperion has died!");
             }
         }
         function sorcAttk() {
@@ -18,17 +25,63 @@
             spider.hp -= 20;
             spider.hp += spider.def;
             console.log(spider.name + " has " + spider.hp + " HP");
+            expStore.sorcHit += 2;
+            expStore.sorcLvl = (spider.rewExp * expStore.sorcHit);
+            sorc.hp -= (spider.atk - sorc.def);
+            console.log(spider.name + " hits Deehari for " + spider.atk + ". Deehari's hp: " + sorc.hp);
             if (spider.hp <= 0) {
-                alert("The spider is dead");
+                alert("The spider is dead, " + "Deehari won " + expStore.sorcLvl + " exp." + " Hyperion won " + expStore.kniLvl + " exp");
+            }
+            if (sorc.hp <= 0) {
+                alert("Deehari has died!");
             }
         }
+
         var spider = {
             name: "Giant Spider",
+            hp: 100,
+            atk: 25,
+            def: 5,
+            rewExp: 20
+        }
+        var expStore = {
+            kniHit: 0,
+            sorcHit: 0,
+            sorcLvl: 0,
+            kniLvl: 0,
+            clerHit: 0,
+            clerLvl: 0,
+            rogueHit: 0,
+            rogueLvl: 0
+        }
+
+        var knight = {
+            name: "Hyperion",
+            hp: 250,
+            atk: 10,
+            def: 20
+        }
+
+        var sorc = {
+            name: "Deehari",
             hp: 100,
             atk: 20,
             def: 5
         }
 
+        var cleric = {
+            name: "Haneru",
+            hp: 175,
+            atk: 10,
+            def: 10
+        }
+
+        var rogue = {
+            name: "Neeree",
+            hp: 130,
+            atk: 10,
+            def: 10
+        }
 
     </script>
 </head>
