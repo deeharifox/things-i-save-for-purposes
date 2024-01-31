@@ -16,11 +16,11 @@
             var nipRes = nipInp.value;
             if (nipRes == myAcc.password) {
             panelRes.innerHTML = "welcome";
-                var passRes = 1;
+            passRes = 1;
         }
         else {
                 panelRes.innerHTML = "nope";
-                var passRes = 0;
+                passRes = 0;
         }
         }
 
@@ -33,7 +33,8 @@
             }
 
             //take money out
-            function withAcc() {
+        function withAcc() {
+            if (passRes >= 1) {
                 var ammount = ValAmmount.value;
                 if (ammount > myAcc.balance) {
                     panelRes.innerHTML =
@@ -46,6 +47,10 @@
                         + ", remaining $" + myAcc.balance;
                 }
             }
+            else {
+                panelRes.innerHTML = "log in plz"
+            }
+        }
 
             //drop money in
             function depAcc() {

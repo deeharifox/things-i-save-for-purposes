@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Structure relations</title>
+    <script>
+
+        var kirT = {
+            name: "the Kirin Tor",
+            shield: "The violet eye"
+        }
+
+        var BlueDrag = {
+            name: "the Blue Dragonfligth",
+            shield: "Blue wyrm"
+        }
+
+        var naga = {
+            name: "The Naga",
+            shield: "a Water serpent"
+        }
+
+        var frostBarr = {
+            name: "Frost Barrage",
+            spellSchool: "Spell-Frost",
+            spellType: "AoE",
+            vsm: "Verbal, Somatic"
+        }
+
+        var arcMiss = {
+            name: "Arcane Missiles",
+            spellSchool: "Arcane",
+            spellType: "Single target",
+            vsm: "Somatic"
+        }
+
+        var jaina = {
+            name: "Jaina",
+            lineage: "Proudmoore",
+            faction: kirT,
+            favSpell: frostBarr
+        }
+
+        var dee = {
+            name: "Deehari",
+            lineage: "Voldunai",
+            faction: kirT,
+            favSpell: arcMiss
+        }
+
+        var kalec = {
+            name: "Kalecgos",
+            lineage: "Blue dragonflight",
+            faction: BlueDrag,
+            favSpell: arcMiss
+        }
+
+        var azsh = {
+            name: "Queen Azshara",
+            lineage: "Highborne",
+            faction: naga,
+            favSpell: frostBarr
+        }
+
+        function showMage(mage) {
+            console.log(mage.name + " of the " + mage.lineage
+                + " works with " + mage.faction.name + ", whose shield is "
+                + mage.faction.shield +
+                ". Their preffered spell is "
+                + mage.favSpell.name + ", its damage type is " + mage.favSpell.spellSchool + " and requires " + mage.favSpell.vsm + " components.")
+        }
+
+        function showSpell(spell) {
+            console.log(spell.name + " is a spell of the " + spell.spellSchool + " school. Its spell type is " + spell.spellType + " and requires " + spell.vsm + " components." )
+        }
+        showMage(jaina);
+        showMage(dee);
+        showMage(kalec);
+        showMage(azsh);
+
+        showSpell(arcMiss);
+        showSpell(frostBarr);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
