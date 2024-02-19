@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Conditionals</title>
+    <script>
+        var price = 120;
+        var frequentCust = true;
+        var localCur = true;
+
+        console.log("Base price is: $" + price + (localCur ? " MXN" : " USD") );
+
+        if (price > 100) {
+            //discount
+            if (frequentCust) {
+                price = price * 0.5;
+                console.log("WOWZERS THAT'S 50% OFF BAY BEE KEEP CONSUMING MORE")
+            }
+            else {
+                price = price * 0.75;
+                console.log("Discount is 25%");
+            }
+        }
+        else if (price > 90) {
+            price = price * 0.9;
+            console.log("Discount is 10%");
+        }
+        else {
+            console.log("There ain't no discount you cheap dawg");
+        }
+        console.log("Final price: $" + price + (localCur ? " MXN" : " USD"));
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
