@@ -93,7 +93,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="conditions.html" />
+    <Content Include="img\aqua.jpg" />
+    <Content Include="img\fish.jpg" />
+    <Content Include="img\indefinido.jpg" />
+    <Content Include="img\leo.jpg" />
+    <Content Include="img\libra.jpg" />
     <Content Include="Web.config" />
+    <Content Include="zodiac.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
