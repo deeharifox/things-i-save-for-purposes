@@ -93,11 +93,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="conditions.html" />
-    <Content Include="img\aqua.jpg" />
-    <Content Include="img\fish.jpg" />
+    <Content Include="img\aquarius.png" />
+    <Content Include="img\aries.png" />
+    <Content Include="img\cancer.png" />
+    <Content Include="img\capricorn.png" />
+    <Content Include="img\gemini.png" />
     <Content Include="img\indefinido.jpg" />
-    <Content Include="img\leo.jpg" />
-    <Content Include="img\libra.jpg" />
+    <Content Include="img\leo.png" />
+    <Content Include="img\libra.png" />
+    <Content Include="img\pisces.png" />
+    <Content Include="img\sagittarius.png" />
+    <Content Include="img\scorpio.png" />
+    <Content Include="img\taurus.png" />
+    <Content Include="img\unknown.png" />
+    <Content Include="img\virgo.png" />
     <Content Include="Web.config" />
     <Content Include="zodiac.html" />
   </ItemGroup>
