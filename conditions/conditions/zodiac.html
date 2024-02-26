@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Zodiac</title>
-    
+
     <script>
         var chosenSign = 0;
         let CompMatrix = [
@@ -35,24 +35,33 @@
             }, 1000);
         }
         function bckColor() {
-            document.body.style.backgroundColor = "#1f7a8c";
+            document.body.style.backgroundImage = "url('img/zodiac circ.png')";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundSize = "cover";
             document.getElementById("H1").style.color = "#f7ece1";
             document.getElementById("labelBD").style.color = "#f7ece1";
             document.getElementById("labelBM").style.color = "#f7ece1";
         }
         function ConsZod() {
+            var x = document.getElementById("buttonDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "block";
+            }
+         
             var day = parseInt(SelDayB.value);
             var month = parseInt(SelMonB.value);
 
             var multDat = (month * 100) + day;
-            
+
             console.log("Your birthday is on: " + day + "/" + month);
             console.log("Your lucky number :) =" + multDat);
 
             if (multDat >= 120 && multDat <= 218) {
                 icon.src = "img/aquarius.png"
                 signName.innerHTML = "Aquarius";
-                signDesc.innerHTML = "Wet people"; 
+                signDesc.innerHTML = "Wet people";
                 var chosenSign = 1;
 
             }
@@ -236,7 +245,7 @@
                 Sco.innerHTML = "Scorpio " + CompMatrix[2][9];
                 Tau.innerHTML = "Taurus " + CompMatrix[2][10];
                 Vir.innerHTML = "Virgo " + CompMatrix[2][11];
-                                
+
             }
             //leo
             else if (multDat >= 723 && multDat <= 822) {
@@ -252,7 +261,7 @@
                 Sco.innerHTML = "Scorpio " + CompMatrix[5][9];
                 Tau.innerHTML = "Taurus " + CompMatrix[5][10];
                 Vir.innerHTML = "Virgo " + CompMatrix[5][11];
-                                
+
             }
             //vir
             else if (multDat >= 823 && multDat <= 922) {
@@ -283,7 +292,7 @@
                 Sag.innerHTML = "Saggitarius " + CompMatrix[6][8];
                 Sco.innerHTML = "Scorpio " + CompMatrix[6][9];
                 Tau.innerHTML = "Taurus " + CompMatrix[6][10];
-                Vir.innerHTML = "Virgo " + CompMatrix[6][11];      
+                Vir.innerHTML = "Virgo " + CompMatrix[6][11];
 
             }
             //scor
@@ -335,81 +344,107 @@
             }
         }
     </script>
+    <style>
+        div.a {
+            font-family: "Georgia";
+            text-align: center;
+        }
+        div.b {
+            font-family: "Trebuchet MS";
+            text-align: left;
+        }
+
+        div.c {
+            font-family: "Trebuchet MS";
+            position: absolute;
+            top: 200px;
+            left: 700px
+        } 
+        
+    </style>
 </head>
 
 <body onload="bckColor()">
-    <h1 id="H1"> Dee's arcanas</h1>
-    <label id="labelBD">Day of birth</label>
-    <select id="SelDayB">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-        <option value="31">31</option>
-    </select>
+    <div class="a">
+        <h1 id="H1"> Dee's arcanas</h1>
+        <label id="labelBD">Day of birth</label>
+        <select id="SelDayB">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
 
-    <label id="labelBM">Month of birth</label>
-    <select id="SelMonB">
-        <option value="1">Jan</option>
-        <option value="2">Feb</option>
-        <option value="3">Mar</option>
-        <option value="4">Apr</option>
-        <option value="5">May</option>
-        <option value="6">Jun</option>
-        <option value="7">Jul</option>
-        <option value="8">Aug</option>
-        <option value="9">Sep</option>
-        <option value="10">Oct</option>
-        <option value="11">Nov</option>
-        <option value="12">Dec</option>
-    </select>
+        <label id="labelBM">Month of birth</label>
+        <select id="SelMonB">
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+            <option value="4">Apr</option>
+            <option value="5">May</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Aug</option>
+            <option value="9">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+        </select>
+    </div>
 
-    <button id="Consult" onclick="ConsZod()" onmouseover="ChangeColorButton()"> Consult the zodiac </button><br /><br />
+    <div class="b">
+        <button id="Consult" onclick="ConsZod()" onmouseover="ChangeColorButton()"> Consult the zodiac </button><br /><br />
 
-    <img id="icon" src="img/unknown.png" />
-    <h2 id="signName"></h2>
-    <p id="signDesc"></p>
-    <h3 id="signComp"></h3>
-    <button id="CompatBut" onclick="Compat()" onmouseover="ChangeColorButton2()"> Consult your compatibility </button><br /><br />
-    <p id="Aqu"></p>
-    <p id="Ari"></p>
-    <p id="Can"></p>
-    <p id="Cap"></p>
-    <p id="Gem"></p>
-    <p id="Leo"></p>
-    <p id="Lib"></p>
-    <p id="Pis"></p>
-    <p id="Sag"></p>
-    <p id="Sco"></p>
-    <p id="Tau"></p>
-    <p id="Vir"></p>
+        <div id="buttonDIV" style="display:none">
+            <button id="CompatBut" onclick="Compat()" onmouseover="ChangeColorButton2()"> Consult your compatibility </button><br /><br />
+        </div>
 
+        <img id="icon" src="img/unknown.png" />
 
-    </bodyonload="changeColor()">
+        <h2 id="signName"></h2>
+        <p id="signDesc"></p>
+    </div>   
+        <div class="c">
+            <h3 id="signComp"></h3>
+            <p id="Aqu"></p>
+            <p id="Ari"></p>
+            <p id="Can"></p>
+            <p id="Cap"></p>
+            <p id="Gem"></p>
+            <p id="Leo"></p>
+            <p id="Lib"></p>
+            <p id="Pis"></p>
+            <p id="Sag"></p>
+            <p id="Sco"></p>
+            <p id="Tau"></p>
+            <p id="Vir"></p>
+        </div>
+</body>
 </html>

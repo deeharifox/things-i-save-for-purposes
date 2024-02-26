@@ -107,6 +107,7 @@
     <Content Include="img\taurus.png" />
     <Content Include="img\unknown.png" />
     <Content Include="img\virgo.png" />
+    <Content Include="img\zodiac circ.png" />
     <Content Include="Web.config" />
     <Content Include="zodiac.html" />
   </ItemGroup>
