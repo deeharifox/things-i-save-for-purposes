@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "for cicle", "for cicle\for cicle.vbproj", "{89725982-0CA1-4927-B626-2712F1C015CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89725982-0CA1-4927-B626-2712F1C015CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89725982-0CA1-4927-B626-2712F1C015CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89725982-0CA1-4927-B626-2712F1C015CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89725982-0CA1-4927-B626-2712F1C015CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8283F4A4-F926-4731-9871-CEC5D1F152CA}
+	EndGlobalSection
+EndGlobal

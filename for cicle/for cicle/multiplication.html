@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>multiplication</title>
+    <script>
+        console.log("2's table");
+        for (var base = 1; base <= 10; base++) {
+            for (var table = 1; table <= 10; table++) {
+                var result = base * table;
+                console.log("Base number " + base + " Multiplied by: " + table + " Equals: " + result);
+            }
+        }
+
+        console.log("IMC for 1.7m");
+        for (var weight = 10; weight <= 200; weight++) {
+            //set height is 1.7m
+            var height = 1.7;
+            var IMCres = weight / Math.pow(height, 2);
+            
+            if (IMCres >= 18 && IMCres <=24) {
+                console.log("IMC for " + weight + "kg is: " + IMCres + ". Healty");
+            }
+            else if (IMCres >=25 && IMCres <= 29) {
+                console.log("IMC for " + weight + "kg is: " + IMCres + ". Overweight");
+            }
+            else if (IMCres >= 30) {
+                console.log("IMC for " + weight + "kg is: " + IMCres + ". Obese");
+            }
+            else if (IMCres <= 17) {
+                console.log("IMC for " + weight + "kg is: " + IMCres + ". Underweight");
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
