@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Squares with cicles</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: darkslategray;
+            box-shadow: 1px 1px 3px black;
+            margin: 5px;
+        }
+    </style>
+    <script>
+        function squareGen() {
+            var amount = fieldAmount.value;
+            var InSize = fieldInSize.value;
+            var growth = fieldGrowth.value;
+
+            console.log("Generating " + amount + " squares with initial size of " + InSize + " and a growth of " + growth);
+
+            for (var i = 1; i <= amount; i++) {
+                var newSquare = document.createElement("div")
+                newSquare.className = "square";
+
+                var width = InSize * i * growth;
+                var height = 30;
+
+                newSquare.style = "width: " + width + "px; height:" + height + "px";
+
+
+                document.body.appendChild(newSquare);
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Square generator</h1>
+    <label>Amount to generate:</label>
+    <input type="number" id="fieldAmount" /><br />
+
+    <label>Initial size:</label>
+    <input type="number" id="fieldInSize" /><br />
+
+    <label>Growth factor:</label>
+    <input type="number" id="fieldGrowth" step="any" /><br />
+
+    <button onclick="squareGen()">Generate</button>
+</body>
+</html>

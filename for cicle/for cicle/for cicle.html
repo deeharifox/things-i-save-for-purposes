@@ -36,6 +36,24 @@
             console.log("Value of the radius is: " + radius + ". Area is: " + area);
         }
 
+        console.log("Area of a circle using while");
+        var radius1 = 0;
+        while (radius1 < 5) {
+            var area = Math.PI * radius1 * radius1;
+            console.log("The area of the radius " + radius1 + " is: " + area);
+
+            radius1++;
+        }
+
+        console.log("Area of a circle using do while");
+        var radius2 = 0;
+        do {
+            var area = Math.PI * radius2 * radius2;
+            console.log("The area of the radius " + radius1 + " is: " + area);
+
+            radius2++;
+        } while (radius2 < 5);
+
     </script>
 </head>
 <body>
