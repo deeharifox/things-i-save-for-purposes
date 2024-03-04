@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Arrays and lists</title>
+    <script>
+        function calcGr() {
+            return 1;
+        }
+
+        var grades = [8, 7, 10, 9, 5, 9, 7, 6];
+        console.log("Size of the grading list: " + grades.length);
+
+        console.log("First element is: " + grades[0]);
+
+        var lastGr = grades[grades.length - 1];
+        console.log("Last element is: " + lastGr);
+
+        grades[5] = 10;
+        grades[2] = 3 + 5;
+        grades[1] = grades[3];
+
+        var myGr = 7;
+        grades[4] = myGr;
+        grades[2] = calcGr();
+
+
+        console.log(grades);
+
+        for (var i = 0; i < grades.length; i++) {
+            console.log("Pos " + i + " contains " + grades[i]);
+        }
+
+        function calcMed(array) {
+            var sum = 0;
+            for (var i = 0; i < array.length; i++) {
+                sum += array[i];                
+            }
+            var med = sum / array.length;
+
+            return med;
+        }
+
+        var medGr = calcMed(grades);
+        console.log("Median of grades: " + medGr);
+
+        var heights = [1.7, 1.9, 1.68, 0.96];
+        console.log(heights);
+
+        var medHe = calcMed(heights);
+        console.log("Median height: " + medHe);
+
+        console.log("Median costs: " + calcMed([19.99, 10.50, 34.0]));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
