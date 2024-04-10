@@ -93,6 +93,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="chat.html" />
+    <Content Include="pics\lion1.jpg" />
+    <Content Include="pics\yeen1.jpg" />
+    <Content Include="pics\yeen2.jpg" />
+    <Content Include="pics\yeen3.jpg" />
+    <Content Include="pics\yeen4.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
