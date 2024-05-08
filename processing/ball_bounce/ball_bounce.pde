@@ -2,7 +2,7 @@ int x = 50; // Initial x-coordinate of the ball
 int y = 50; // Initial y-coordinate of the ball
 int diameter = 50; // Diameter of the ball
 int horizontalSpeed = 20; // Speed of the ball in the horizontal direction
-int verticalSpeed = 1; // Speed of the ball in the vertical direction
+int verticalSpeed = 10; // Speed of the ball in the vertical direction
 
 boolean moveRight = true; // Boolean to track movement direction
 boolean moveDown = true; // Boolean to track movement direction along y-axis
